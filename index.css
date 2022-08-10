@@ -1,0 +1,38 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+} 
+
+.header{
+   background-color:#DE4545;
+   height: 90px;
+}
+.welcome{
+   background-color:#5FE0C9;
+   height: 300px;
+   text-align: center;
+   font-size: 40px;
+   font-family: "Poppins";
+   padding: 40px;
+}
+
+@media (min-width:959px){
+   .welcome{
+      padding: 80px;
+      font-size: 50px;
+   }
+}
+.header__link-contact{
+   font-family: "Poppins";
+   font-size: 20px;
+   text-decoration: none;
+   color: #211040;
+   margin-left: 10px;
+}
+
+.header__link-contact:hover{
+   color: #6032b5;
+}
